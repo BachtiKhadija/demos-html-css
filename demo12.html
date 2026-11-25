@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo1.html">
+              <fieldset>
+                 <legend>Personnelle</legend>
+      <table cellspacing="10">
+  
+           
+     
+        <tr>
+            <td><label for="">Nom</label></td>
+            <td><input type="text" size="40" placeholder="saisir nom ...." required pattern="^[A-Z][a-z]{3,10}(\s[a-z]{3,10})?$"></td>
+        </tr>
+        <tr>
+            <td><label for="">Prénom</label></td>
+            <td><input type="text" size="40" placeholder="saisir prénom ...." required></td>
+        </tr>
+        <tr>
+            <td><label>Sexe</label></td>
+            <td>
+               <input type="radio" name="gender"> Féminin
+                <input type="radio" name="gender"> Masculin
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Date de Naissance</label></td>
+            <td>
+                <input type="date"  required>
+            </td>
+        </tr>
+        </table>
+           </fieldset>
+           <fieldset>
+            <legend>Professionnel</legend>
+        <table>
+        <tr>
+            <td>Niveau</td>
+            <td>
+               <select name="" id="">
+                  <option value="">Niveau1</option>
+                  <option value="">Niveau2</option>
+                  <option value="">Niveau3</option>
+               </select>
+
+            </td>
+        </tr>
+            <tr>
+            <td>Pays</td>
+            <td>
+               <select name="" id="">
+               <optgroup label="Afrique">
+                  <option value="">Maroc</option>
+                </optgroup>
+                <optgroup label="Europe">
+                  <option value="">France</option>
+                  <option value="">Italie</option>
+                  <option value="">Espagne</option>
+                </optgroup>
+                <optgroup label="Asie">
+                  <option value="">chine</option>
+                  <option value="">Inde</option>
+                  </optgroup>
+
+               </select>
+
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>Tel</td>
+            <td>
+               <input type="tel" size="40" placeholder="06 **-**-**-**">
+
+            </td>
+        </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+               <input type="email" size="40" placeholder="email@email.com" required>
+
+            </td>
+        </tr>
+     
+       <tr>
+            <td>Hobbies</td>
+            <td>
+               <input type="checkbox"> Lecture 
+               <input type="checkbox"> Sport 
+               <input type="checkbox"> cyclisme 
+
+            </td>
+        </tr>
+   
+      <tr>
+            <td>Site Web</td>
+            <td>
+               <input type="url" size="40" placeholder="https://..." required>
+
+            </td>
+        </tr>
+      <tr>
+            <td>Adresse</td>
+            <td>
+               <textarea  rows="5" cols="40"></textarea>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Document</td>
+            <td>
+              <input type="file">
+
+            </td>
+        </tr>
+  
+    <button type="submit">
+        Envoyer
+    </button>
+
+</table>
+   </fieldset>
+    </form>
+    
+</body>
+</html>
